@@ -15,12 +15,12 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '29155314'))
 API_HASH = environ.get('API_HASH', '8c612d2371bb07cd405adec606582b60')
-BOT_TOKEN = environ.get('BOT_TOKEN', '7535361146:AAHSY35JOBii2thdL6sDW4WsYZO33cCKyR4')
+BOT_TOKEN = environ.get('BOT_TOKEN', '8016251564:AAH_HUZaeyVhGE0GSX1xQfkBp7W3U9-qdmg')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6424894431 5016109398').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6424894431').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/Premium_movies_web") # ADMIN USERNAME
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002325628760'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002394165174'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/MOVIES_TO_REQUEST_ME')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002005654267').split()]
 #---------------------------------------------------------------
@@ -70,10 +70,10 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 START_IMG = (environ.get('START_IMG', 'https://graph.org/file/e08e7cc0d83458dad3644-3e91ea1db7a57f92bb.jpg')).split()
-FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg')
-REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split() 
+FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://graph.org/file/bf64506779bb9dbfd7d1a-1ee1bcf035267d8e8d.jpg')
+REFER_PICS = (environ.get("REFER_PICS", "https://graph.org/file/bf64506779bb9dbfd7d1a-1ee1bcf035267d8e8d.jpg")).split() 
 PAYPICS = (environ.get('PAYPICS', 'https://graph.org/file/bf64506779bb9dbfd7d1a-1ee1bcf035267d8e8d.jpg')).split()
-SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/9f3f47c690bbcc67633c2.jpg'))
+SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/e08e7cc0d83458dad3644-3e91ea1db7a57f92bb.jpg'))
 REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
